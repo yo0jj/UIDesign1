@@ -7,8 +7,13 @@
 /* adjusting fonts */
 
 body {
-	font-family: -apple-system, BlinkMacSystemFont, helvetica, arial, sans-serif;
+	color: indigo;
+	font-family: 'NanumSquare', sans-serif;
 	transition: background 500ms ease;
+}
+
+.cursive {
+	font-family: cursive;
 }
 
 p, li {
