@@ -1,0 +1,157 @@
+
+body{
+	font-family: sans-serif;
+
+	/*	define a CSS variable */
+	--accent-color: rgb(0,0,255);
+} 
+
+#align {
+	display: flex;
+  align-items: center;
+  justify-content: center;	
+  height: 100vh;
+}
+
+#stage {
+	width: 1625px;
+	height: 914px;
+	margin: 10px;
+	background: black;
+	position: absolute;
+}
+
+.camera {
+	width: 1600px;
+	height: 900ox;
+/*	background-image: url('assets/image10.png');*/
+	background-size: 100% 100%;
+	top: 0px;
+	left: 136px;
+	position: absolute;
+}
+
+#video {
+  width: 1600px;
+  height: 900px;
+  transform: scaleX(-1);
+}
+
+#canvas {
+	width: 1200px;
+  	height: 860px;
+	display: none;
+}
+
+.overlay-guide {
+	width: 1200px;
+	height: 860px;
+	background-size: 100% 100%;
+	top: 0px;
+	left: 215px;
+	position: absolute;
+	background-color: transparent;
+	z-index: 1;
+}
+
+
+
+/*.arrow-left {
+	width: 63px;
+	height: 63px;
+	background-image: url('assets/Frame 3.svg');
+	position: absolute;
+	left: 26.4px;
+	bottom: 30.53px;
+}
+
+.arrow-right {
+	width: 63px;
+	height: 63px;
+	background-image: url('assets/Frame 2.svg');
+	position: absolute;
+	right: 164.79px;
+	bottom: 30.53px;
+}*/
+
+.owl-carousel  {
+	width: auto;
+	height: 130px;
+	background: transparent;
+	position: relative;
+	bottom: 0px;
+	left: 17px;
+}
+
+.owl-stage  {
+	width: auto;
+	height: 225px;
+	background: #444444;
+	position: relative;
+	left: 17px;
+	bottom: 0px;
+}
+
+.img .item {
+	width: 167px;
+	height: 106px;
+}
+
+.owl-carousel img {
+	max-width: 100%;
+}
+
+
+
+/*.controlbox {
+	width: 139px;
+	height: 914px;
+	background: #444444;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}*/
+
+/*.share {
+	width: 45px;
+	height: 45px;
+	background-image: url('assets/Group 68.svg');
+	position: absolute;
+	top: 49.7px;
+	right: 47.25px;
+}*/
+
+.icon-button {
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 10px;
+  border: none;
+  background: none;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#downloadlink {
+	width: 47px;
+	height: 47px;
+	background-image: url('assets/Group 69.svg');
+	position: absolute;
+	bottom: 49.7px;
+	right: 90px;
+}
+
+#startbutton {
+	width: 77px;
+	height: 77px;
+	background-image: url('assets/Group 65.svg');
+	position: absolute;
+	top: 400px;
+	right: 50px;
+}
+
+/*.hidden {
+  display: none;
+}*/
+
+
